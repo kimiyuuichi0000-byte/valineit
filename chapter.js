@@ -57,11 +57,3 @@ async function pageOpen(chapterFile,chapterId){
     console.error("読み込みエラー:", err);
   }
 }
-
-window.onhashchange = () => {
-  const hoga = new URLSearchParams(window.location.search);
-  const p = params.get('p');
-  const c = params.get('c')
-  console.log(p,c);
-  pageOpen('${p}','${c}');
-}
