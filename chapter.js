@@ -61,4 +61,5 @@ async function pageOpen(chapterFile,chapterId){
 /*
 pageOpenは、タイトル、リンクも書き換える。
 chapterは、記事内容のみ書き換え。
+pageOpen,chapterの引数は('ファイル名','チャプター番号')
 */
