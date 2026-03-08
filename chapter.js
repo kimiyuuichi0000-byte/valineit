@@ -1,4 +1,8 @@
 "use strict";
+
+window.onhashchange = openChapter;
+window.onhashchange = chapter;
+
 //ページとチャプターの初期値を調べる
 const params = new URLSearchParams(window.location.search);
 
