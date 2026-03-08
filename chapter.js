@@ -1,8 +1,5 @@
 "use strict";
 
-window.onhashchange = openChapter;
-window.onhashchange = chapter;
-
 //ページとチャプターの初期値を調べる
 const params = new URLSearchParams(window.location.search);
 
@@ -60,3 +57,6 @@ async function pageOpen(chapterFile,chapterId){
     console.error("読み込みエラー:", err);
   }
 }
+
+window.onhashchange = openChapter;
+window.onhashchange = chapter;
