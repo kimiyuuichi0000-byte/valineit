@@ -1,3 +1,4 @@
+"use strict";
 //ページとチャプターの初期値を調べる
 const params = new URLSearchParams(window.location.search);
 
