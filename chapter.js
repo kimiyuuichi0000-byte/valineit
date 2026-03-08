@@ -62,5 +62,6 @@ window.onhashchange = () => {
   const hoga = new URLSearchParams(window.location.search);
   const p = params.get('p');
   const c = params.get('c')
-  pageOpen(p,c)
+  console.log(p,c);
+  pageOpen('${p}','${c}');
 }
