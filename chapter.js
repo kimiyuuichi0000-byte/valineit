@@ -57,3 +57,8 @@ async function pageOpen(chapterFile,chapterId){
     console.error("読み込みエラー:", err);
   }
 }
+
+/*
+pageOpenは、タイトル、リンクも書き換える。
+chapterは、記事内容のみ書き換え。
+*/
