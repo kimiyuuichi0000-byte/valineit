@@ -49,3 +49,12 @@ button {
 small {
     color:rgb(12, 77, 15);
 }
+
+@font-face {
+    font-family: vailenit-font;
+    src: url(./font/Valineit_v3-Regular.ttf);
+}
+
+v{
+    font-family: valineit-font;
+}
