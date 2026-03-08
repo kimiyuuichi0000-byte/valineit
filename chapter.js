@@ -58,5 +58,9 @@ async function pageOpen(chapterFile,chapterId){
   }
 }
 
-window.onhashchange = openChapter;
-window.onhashchange = chapter;
+window.onhashchange = () => {
+  const hoga = new URLSearchParams(window.location.search);
+  const p = params.get('p');
+  const c = params.get('c')
+  pageOpen(p,c)
+}
